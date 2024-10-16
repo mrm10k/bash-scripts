@@ -42,3 +42,9 @@ chmod +x clean.sh``
    
 5. Restrictions:
 - The script does not delete directories (only individual files are allowed).
+
+## Error handling
+
+- If no parameters or files are provided, the script shows help information.
+- If you attempt to move a directory, the script will block the operation and display an error.
+- If you try to recover a non-existent file, an appropriate error message is shown.
