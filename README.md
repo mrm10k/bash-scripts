@@ -12,5 +12,14 @@ A simple Bash script to manage files by moving them to a "bin" directory, listin
 
 Ensure the script is executable by running:
 
-```bash
-chmod +x clean.sh
+``bash
+chmod +x clean.sh``
+
+## Usage
+ ``./clean.sh [parameters] [file]``
+
+### Parameters
+
+- **``-L``**: List the contents of the bin.
+- **``-R``**: Recover a specific file from the bin.
+- **``-h``**: Display help information.
