@@ -30,17 +30,17 @@ chmod +x clean.sh``
 4. **``./clean.sh -h``**: Show help.
 
 ## How it works
-1. Move Files to the Bin:
+1. **Move Files to the Bin:**
 - The specified file is compressed to .gz format and moved to ~/bin.
 - If the ~/bin directory doesn't exist, it is created automatically.
  
-2. List Files:
+2. **List Files:**
 - Displays the content of the ~/bin directory.
 
-3. Recover Files:
+3. **Recover Files:**
 - Decompresses the .gz file and restores it to the current directory.
    
-5. Restrictions:
+4. **Restrictions:**
 - The script does not delete directories (only individual files are allowed).
 
 ## Error handling
