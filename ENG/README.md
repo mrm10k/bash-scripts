@@ -78,3 +78,5 @@ chmod +x clean.sh``
 - If no parameters or files are provided, the script shows help information.
 - If you attempt to move a directory, the script will block the operation and display an error.
 - If you try to recover a non-existent file, an appropriate error message is shown.
+
+---
