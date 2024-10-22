@@ -1,6 +1,9 @@
 #!/bin/bash
+
+sudo apt install figlet && sudo apt install lolcat
+
 clear
-figlet -f ANSI -c DUPE.sh
+figlet -f ANSI -c DUPE.sh lolcat
 # Verificar si el usuario ingresó un directorio
 if [ -z "$1" ]; then
   echo "======================================"
