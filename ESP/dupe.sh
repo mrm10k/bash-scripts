@@ -1,9 +1,17 @@
 #!/bin/bash
 
-sudo apt install figlet && sudo apt install lolcat
+#:Title: dupe.sh
+#:Version: 1.0
+#:Author: Mario Rolando León
+#:Date: 10/18/2024
+#:Date[ESP]: 18/10/2024
+#:Description: A script to delete duped files checking the hash of the files on the selected directory.
+
+sudo apt install lolcat -y && sudo apt install figlet -y
 
 clear
-figlet -f ANSI -c DUPE.sh lolcat
+figlet -f ANSI -c DUPE.sh | lolcat
+echo "Made by mrm10k" | lolcat
 # Verificar si el usuario ingresó un directorio
 if [ -z "$1" ]; then
   echo "======================================"
