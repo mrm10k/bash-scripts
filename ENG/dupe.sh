@@ -11,6 +11,7 @@ sudo apt install lolcat -y && sudo apt install figlet -y
 
 clear
 figlet -f ANSI -c DUPE.sh | lolcat
+echo "                          Made by mrm10k" | lolcat
 # Verify if the user has introduced a directory
 if [ -z "$1" ]; then
   echo "======================================"
